@@ -137,7 +137,6 @@ nav .container .mobile-nav-open:active {
 }
 
 nav .mobile-nav {
-    display: flex;
     position: fixed;
     left: -100%;
     top: 0;
@@ -145,7 +144,7 @@ nav .mobile-nav {
     height: 100vh;
     /* max-width: 400px; */
     width: 100%;
-    align-items: center;
+    padding-top: 60px;
     transition: all 0.5s ease;
     z-index: 99;
 }
@@ -154,7 +153,8 @@ nav .mobile-nav ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0 auto;
+    padding-top: 60px;
+    align-items: center;
 }
 
 nav .mobile-nav ul li a {
